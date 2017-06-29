@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.barn {
+    border: solid white 1px;
+    padding: 1em;
+}
+
+.corral {
+    min-height: 150px;
+    border: solid white 1px;
+    padding: 1em;
+}
+
+.dragon {
+    text-align: center;
+}
+
+.dragon > .image {
+    width: auto;
+    height: 150px;
+    margin: auto;
+}
+
+.title {
+    font-size: 1.5em;
+}
+
+.invisible {
+    display: none;
+}
+
+#free-food-img {
+    height: 50px;
+    width: auto;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Explodey Dragons</title>
+    <link type="text/css" rel="stylesheet" href="static/css/main.css">
+</head>
+<body>
+    <h1>Explodey Dragons</h1>
+    <section class="barn">
+        <section class="stall open">
+        </section>
+    </section>
+    <section class="tools">
+        <div class="free-food"><img id="free-food-img" src="static/img/FoodCan.jpg"></div>
+    </section>
+    <section class="details">
+        <h1 class="title">Details</h1>
+        <div class="display">
+            <div class="player-view invisible">
+                <ul>
+                    <li>Money: <span class="money-view"></span></li>
+                    <li>Fame: <span class="fame-view"></span></li>
+                </ul>
+            </div>
+            <div class="dragon-view">
+                <section>
+                    <h1>Name</h1>
+                    <p>Hunger: <span class="hunger-view">1000</span></p>
+                    <p>Volatility: <span class="volatility-view">0</span></p>
+                </section>
+            </div>
+        </div>
+    </section>
+    <div class="input invisible">
+        <form name="response">
+            <label><span class="prompt"></span>: <input title="field"></label>
+            <button type="button" id="affirm">Accept</button>
+        </form>
+    </div>
+
+    <script src="static/js/dragons.js"></script>
+</body>
+</html>
